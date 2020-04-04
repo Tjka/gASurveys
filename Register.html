@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>gA SURVEYS - Register</title>
+    <link rel="stylesheet" href="Register.css">
+</head>
+<!--HEADER STARTS HERE-->
+<header>
+    <div id="headerImage">
+        <p>hereGoesTheHeaderImage</p>
+    </div>
+    <div id="headerButtons">
+        <section id="title1">
+            <p>Title1</p>
+        </section>
+        <section id="title2">
+            <p>Title2</p>
+        </section>
+        <section id="title3">
+            <p>Title3</p>
+        </section>
+    </div>
+</header>
+<!--HEADER ENDS HERE-->
+<style>
+    ::placeholder{
+        color: rgba(0, 0, 0, 0.3)
+    }
+</style>
+<body>
+    <div id="registerLayout">
+        <div id="registerImage">
+            <p>hereGoesGaImage</p>
+        </div>
+        <p>Cuál es tu correo electrónico? </p>
+        <div id="registerEmailInput">
+            <input type="text" id="registerEmailInputId" placeholder="Correo">
+            <p id="tilde1no">✔</p>
+        </div>
+        <div id="registerEmailConfirmationInput">
+            <input type="text" id="registerEmailConfirmationInputId" placeholder="Confirmar Correo">
+            <p id="tilde1">✔</p>
+        </div>
+        <p>Ingrese la contraseña deseada: </p>
+        <div id="registerPasswordInput">
+            <input type="password" id="registerPasswordInputId" placeholder="Constraseña">
+            <p id="tilde2no">✔</p>
+        </div>
+        <div id="registerPasswordConfirmationInput">
+            <input type="password" id="registerPasswordConfirmationInputId" placeholder="Confirmar Contraseña">
+            <p id="tilde2">✔</p>
+        </div>
+        <div id="registerSubmitButton">
+            <button id="enterButton" type='button'>Registrate!</button>
+        </div>
+        <p id="error"></p>
+    </div>
+    <footer>
+        <p>FOOTER</p>
+    </footer>
+<script src="validateRegisterCredentials.js"></script>
+</body>
+</html>

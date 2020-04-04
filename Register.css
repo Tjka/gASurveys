@@ -1,0 +1,137 @@
+/* html, body{
+    height: 100%; margin: 0;
+}
+body{
+    background-color: whitesmoke;
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+} */
+    /*HEADER STARTS HERE*/
+    /* header{
+        background-color: rgb(243, 223, 40);
+        display: flex;
+        justify-content: space-between;
+    }
+    #headerImage{
+        display: flex;
+        width: 50%;
+        justify-content: start;
+    }
+    #headerImage > p{
+        margin-left: 50%;
+    }
+    #headerButtons{
+        width: 75%;
+        display: flex;
+        justify-content: space-around;
+    } */
+    /*HEADER FINISHES HERE*/
+    /*BODY STARTS HERE*/
+    /* #registerLayout{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 150px;
+        margin-left: 40%;
+        margin-right: 60%;
+    }
+    #registerSubmitButton{
+        display: flex;
+        margin-left: 47px;
+        margin-top: 20px;
+    }
+    #registerImage{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    #registerEmailInput{
+        display: flex;
+        margin-bottom: 5px;
+    }
+    #registerEmailConfirmationInput{
+        display: flex;
+        margin-bottom: 5px;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        margin-top: auto;
+        background-color: rgb(243, 223, 40);
+    } */
+    /*BODY ENDS HERE*/
+
+    body {
+        display: grid;
+        margin:0;
+        padding:0;
+        height: 100vh;
+    }
+    
+    header {
+        background-color: rgb(243, 223, 40);
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        height: 50px;
+    }
+    
+    #headerButtons {
+        display:flex;
+        justify-content: space-evenly;
+    }
+    
+    #registerLayout {
+        display:flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top:5%;
+    }
+
+    #registerEmailInput {
+        display:flex;
+    }
+   
+    #tilde1no {
+        margin:0;
+        visibility: hidden;
+    }
+
+    #tilde1 {
+        margin:0;
+        visibility: hidden;
+    }
+
+    #registerEmailConfirmationInput {
+        display:flex;
+    }
+
+    #registerPasswordInput {
+        display:flex;
+    }
+
+    #tilde2no {
+        margin:0;
+        visibility: hidden;
+    }
+
+    #tilde2 {
+        margin:0;
+        visibility: hidden; 
+    }
+
+    #registerPasswordConfirmationInput{
+        display:flex;
+    }
+
+    #registerSubmitButton {
+        margin-top: 10px;
+    }
+    
+    footer {
+        background-color: rgb(243, 223, 40);
+        display: flex;
+        margin-top:auto;
+        justify-content: center;
+    }
