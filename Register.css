@@ -1,67 +1,3 @@
-/* html, body{
-    height: 100%; margin: 0;
-}
-body{
-    background-color: whitesmoke;
-    height: 100%;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-} */
-    /*HEADER STARTS HERE*/
-    /* header{
-        background-color: rgb(243, 223, 40);
-        display: flex;
-        justify-content: space-between;
-    }
-    #headerImage{
-        display: flex;
-        width: 50%;
-        justify-content: start;
-    }
-    #headerImage > p{
-        margin-left: 50%;
-    }
-    #headerButtons{
-        width: 75%;
-        display: flex;
-        justify-content: space-around;
-    } */
-    /*HEADER FINISHES HERE*/
-    /*BODY STARTS HERE*/
-    /* #registerLayout{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 150px;
-        margin-left: 40%;
-        margin-right: 60%;
-    }
-    #registerSubmitButton{
-        display: flex;
-        margin-left: 47px;
-        margin-top: 20px;
-    }
-    #registerImage{
-        display: flex;
-        margin-bottom: 20px;
-    }
-    #registerEmailInput{
-        display: flex;
-        margin-bottom: 5px;
-    }
-    #registerEmailConfirmationInput{
-        display: flex;
-        margin-bottom: 5px;
-    }
-    footer{
-        display: flex;
-        justify-content: center;
-        margin-top: auto;
-        background-color: rgb(243, 223, 40);
-    } */
-    /*BODY ENDS HERE*/
-
     body {
         display: grid;
         margin:0;
@@ -70,7 +6,7 @@ body{
     }
     
     header {
-        background-color: rgb(243, 223, 40);
+        background-color: rgb(255, 179, 1);
         display:grid;
         grid-template-columns: 1fr 1fr;
         height: 50px;
@@ -89,17 +25,43 @@ body{
         margin-top:5%;
     }
 
+    #registerImage {
+        margin-bottom: 50px;
+    }
+
     #registerEmailInput {
         display:flex;
     }
-   
-    #tilde1no {
+
+    #registerUserName {
+        display:flex;
+    }
+
+    #tilde00 {
         margin:0;
+        color: green;
         visibility: hidden;
     }
 
-    #tilde1 {
+    #registerUserLastName{
+        display:flex;
+    }
+
+    #tilde01 {
         margin:0;
+        color: green;
+        visibility: hidden;
+    }
+   
+    #tilde10 {
+        margin:0;
+        color: green;
+        visibility: hidden;
+    }
+
+    #tilde11 {
+        margin:0;
+        color: green;
         visibility: hidden;
     }
 
@@ -107,17 +69,35 @@ body{
         display:flex;
     }
 
+    #registerEmailConfirmationInputId {
+        visibility: hidden;  
+    }
+
+    #passwordP1 {
+        margin-bottom:0;
+    }
+
+    #passwordP2 {
+        margin-top:0;
+    }
+
     #registerPasswordInput {
         display:flex;
     }
 
-    #tilde2no {
-        margin:0;
+    #registerPasswordConfirmationInputId {
         visibility: hidden;
     }
 
-    #tilde2 {
+    #tilde20 {
         margin:0;
+        color: green;
+        visibility: hidden;
+    }
+
+    #tilde21 {
+        margin:0;
+        color: green;
         visibility: hidden; 
     }
 
@@ -130,7 +110,7 @@ body{
     }
     
     footer {
-        background-color: rgb(243, 223, 40);
+        background-color: rgb(255, 179, 1);
         display: flex;
         margin-top:auto;
         justify-content: center;
